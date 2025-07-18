@@ -35,7 +35,7 @@ jobs:
 
       - name: Set up reviewdog
         if: "${{ steps.fetch-artifacts.outputs.count != 0 }}"
-        uses: reviewdog/action-setup@v1
+        uses: reviewdog/action-setup@e04ffabe3898a0af8d0fb1af00c188831c4b5893 # v1
         with:
           reviewdog_version: latest
 
